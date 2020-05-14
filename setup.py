@@ -32,7 +32,7 @@ module1 = Extension(
     ],
     include_dirs=["./python", "./lib", "./deps/double-conversion/double-conversion"],
     extra_compile_args=["-D_GNU_SOURCE"],
-    extra_link_args=["-lstdc++", "-lm"],
+    extra_link_args=["-libc++", "-lm"],
 )
 
 
